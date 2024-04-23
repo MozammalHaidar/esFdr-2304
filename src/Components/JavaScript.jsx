@@ -4,7 +4,6 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaHandPointRight } from "react-icons/fa";
 
 const JavaScript = () => {
-  
   return (
     <div className='max-w-[1320px] mx-auto pt-20 pb-20 bg-lightPink flex justify-between p-[20px]'>
       <ul className='ml-5 mt-[150px] font-poppins leading-[30px]'>

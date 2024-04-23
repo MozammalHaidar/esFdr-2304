@@ -1,4 +1,5 @@
 import React from "react";
+import mainImg from "../assets/bannerImg.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
@@ -16,8 +17,8 @@ const Banner = () => {
           >
             <div className='flex gap-3 mt-4'>
               <img
-                className='w-[90px] h-[90px] rounded-[50%]'
-                src='./src/assets/bannerImg.jpg'
+                className='w-[90px] h-[90px] rounded-[50%] '
+                src={mainImg}
                 alt='bannerimg'
               />
               <h2 className='mt-5 font-poppins ml-4'>

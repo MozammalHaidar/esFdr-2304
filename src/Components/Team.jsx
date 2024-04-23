@@ -1,4 +1,10 @@
 import React from "react";
+import person1 from "../assets/image-1.jpg";
+import person2 from "../assets/image-2.jpg";
+import person3 from "../assets/image-3.jpg";
+import person4 from "../assets/image-4.jpg";
+import person5 from "../assets/image-5.jpg";
+import person6 from "../assets/image-6.jpg";
 import { LiaStarSolid } from "react-icons/lia";
 
 const Team = ({ paragraph }) => {
@@ -22,7 +28,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-1.jpg'
+              src={person1}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>
@@ -42,7 +48,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-3.jpg'
+              src={person2}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>
@@ -62,7 +68,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-5.jpg'
+              src={person3}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>
@@ -82,7 +88,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-6.jpg'
+              src={person4}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>
@@ -102,7 +108,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-7.jpg'
+              src={person5}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>
@@ -122,7 +128,7 @@ const Team = ({ paragraph }) => {
           <div className='flex'>
             <img
               className='w-[100px] h-[100px] rounded-md'
-              src='../src/assets/image-8.jpg'
+              src={person6}
               alt=''
             />
             <h3 className='ml-[6px] mt-[35px] text-[18px] text-bold'>

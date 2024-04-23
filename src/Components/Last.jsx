@@ -1,4 +1,10 @@
 import React from "react";
+import project1 from "../assets/banner1.png";
+import project2 from "../assets/banner2.png";
+import project3 from "../assets/banner3.png";
+import project4 from "../assets/banner4.png";
+import project5 from "../assets/banner5.png";
+import project6 from "../assets/banner6.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
@@ -55,7 +61,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/About Me.png'
+                  src={project2}
                   alt=''
                 />
               </div>
@@ -63,7 +69,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/banner2.png'
+                  src={project1}
                   alt=''
                 />
               </div>
@@ -71,7 +77,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/banner4.png'
+                  src={project6}
                   alt=''
                 />
               </div>
@@ -79,7 +85,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/banner3.png'
+                  src={project3}
                   alt=''
                 />
               </div>
@@ -87,7 +93,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/banner 1.png'
+                  src={project4}
                   alt=''
                 />
               </div>
@@ -95,7 +101,7 @@ const Last = () => {
                 {" "}
                 <img
                   className='w-[70px] h-[70px] border-2	border-[#ffffff] '
-                  src='./src/assets/banner5.png'
+                  src={project5}
                   alt=''
                 />
               </div>

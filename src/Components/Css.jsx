@@ -4,7 +4,6 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { FaHandPointRight } from "react-icons/fa";
 
 const Css = () => {
-  
   return (
     <div className='max-w-[1320px] mx-auto pt-20 pb-20 bg-lightPink flex justify-between p-[20px]'>
       <ul className='mr-[150px] mt-[150px] text-[#00241b] leading-[30px] text-[17px] ml-[10px] font-poppins'>
