@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+  margin: 0;
+  padding: 0;
+}
+.slick-slide > div:nth-child(1) {
+  margin-left: 0;
+}
+
+#slider2 .slick-list {
+  /* margin-left:32px; */
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+#slider2 .slick-slide > div {
+  margin: 0 32px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-prev {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 47%;
+  left: 15px;
+  z-index: 999;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 6px;
+}
+.slick-next {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 47%;
+  right: 15px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 50%;
+}
